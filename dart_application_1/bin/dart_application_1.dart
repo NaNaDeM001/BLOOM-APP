@@ -1,5 +1,16 @@
-import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
-
-void main(List<String> arguments) {
-  print('Hello world: ${dart_application_1.calculate()}!');
-}
+void main() {
+  String daysOfTheWeek = "wednesday";
+  switch(daysOfTheWeek) {
+    case "monday":
+      print("1");
+      break;
+    case "tuesday":
+      print("2");
+      break;
+    case "wednesday":
+      print("3");
+      break;
+    default:
+      print("not found");
+     }
+  }
