@@ -1,23 +1,17 @@
 
+
 void main() {
-  int dayNumber = 3; 
-  switch (dayNumber) {
-    case 1:
-      print('Monday: Water all seedlings.');
-      break;
-    case 2:
-      print('Tuesday: Check for pests.');
-      break;
-    case 3:
-      print('Wednesday: Apply fertilizer.');
-      break;
-    case 4:
-      print('Thursday: Inspect irrigation system.');
-      break;
-    case 5:
-      print('Friday: Record daily yields.');
-      break;
-    default:
-      print('Weekend: Rest and review the week.');
-  }
+double WaterLevel = 100.0; 
+int usageCycle = 0;
+
+//keep using water until it drops to 20%
+while (WaterLevel > 20.0) {
+    WaterLevel -= 10;
+    usageCycle++;
+
+    print("cycle $usageCycle: water level is ${WaterLevel}%");
+
+}
+print("water is low refill needed");
+
 }
