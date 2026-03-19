@@ -1,16 +1,23 @@
+
 void main() {
-  String daysOfTheWeek = "wednesday";
-  switch(daysOfTheWeek) {
-    case "monday":
-      print("1");
+  int dayNumber = 3; 
+  switch (dayNumber) {
+    case 1:
+      print('Monday: Water all seedlings.');
       break;
-    case "tuesday":
-      print("2");
+    case 2:
+      print('Tuesday: Check for pests.');
       break;
-    case "wednesday":
-      print("3");
+    case 3:
+      print('Wednesday: Apply fertilizer.');
+      break;
+    case 4:
+      print('Thursday: Inspect irrigation system.');
+      break;
+      case 5:
+      print('Friday: Record daily yields.');
       break;
     default:
-      print("not found");
-     }
+      print('Weekend: Rest and review the week.');
   }
+}
