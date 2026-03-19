@@ -14,7 +14,7 @@ void main() {
     case 4:
       print('Thursday: Inspect irrigation system.');
       break;
-      case 5:
+    case 5:
       print('Friday: Record daily yields.');
       break;
     default:
