@@ -1,17 +1,15 @@
-
-
 void main() {
-double WaterLevel = 100.0; 
-int usageCycle = 0;
+
+double SavingsGoal = 5000.0; 
+int WeeklySavings = 0;
 
 //keep using water until it drops to 20%
-while (WaterLevel > 20.0) {
-    WaterLevel -= 10;
-    usageCycle++;
+while (SavingsGoal >= 50.0) {
+    SavingsGoal -= 500;
+    WeeklySavings++;
 
-    print("cycle $usageCycle: water level is ${WaterLevel}%");
+    print("Savings: $SavingsGoal: wweekly savings is ${WeeklySavings}%");
 
 }
-print("water is low refill needed");
-
+print("Gaol is");
 }
